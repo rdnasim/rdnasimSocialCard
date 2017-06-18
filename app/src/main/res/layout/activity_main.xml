@@ -63,7 +63,7 @@
         android:id="@+id/people_blog_icon"
         android:layout_width="30sp"
         android:layout_height="30sp"
-        android:layout_below="@id/people_mail_icon"
+        android:layout_below="@id/people_mail"
         android:layout_margin="16dp"
         android:src="@drawable/ic_public_black_24dp" />
 
