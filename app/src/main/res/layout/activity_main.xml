@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="me.rdnasim.rdnasimsocialcard.MainActivity">
+
+    <TextView
+        android:id="@+id/just_view"
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        android:background="#346464" />
+
+    <ImageView
+        android:id="@+id/rdnasim_image"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70sp"
+        android:src="@mipmap/university" />
+
+    <ImageView
+        android:id="@+id/people_name_icon"
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:layout_below="@id/rdnasim_image"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_people_black_24dp" />
+
+    <TextView
+        android:id="@+id/people_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rdnasim_image"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@id/people_name_icon"
+        android:text="@string/rd_islam_nasim"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/people_mail_icon"
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:layout_below="@id/people_name_icon"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_email_black_24dp" />
+
+    <TextView
+        android:id="@+id/people_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/people_name"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@id/people_mail_icon"
+        android:text="@string/people_mail"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/people_blog_icon"
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:layout_below="@id/people_mail_icon"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_public_black_24dp" />
+
+    <TextView
+        android:id="@+id/people_blog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/people_mail"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@id/people_blog_icon"
+        android:text="@string/people_blog"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="8sp"
+        android:text="@string/powered_by"
+        android:textSize="15sp" />
+
+</RelativeLayout>
